@@ -17,4 +17,17 @@ const Button = ({ children, variant = 'primary', onClick, className = '' }) => {
   );
 };
 
+<<<<<<< HEAD
 export default Button;
+=======
+Button.propTypes = {
+  variant: PropTypes.oneOf(['primary', 'secondary', 'danger', 'success', 'warning']),
+  size: PropTypes.oneOf(['sm', 'md', 'lg']),
+  disabled: PropTypes.bool,
+  onClick: PropTypes.func,
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+};
+
+export default Button;
+>>>>>>> 67c6e72 (Initial commit - Week 3 React Assignment)
