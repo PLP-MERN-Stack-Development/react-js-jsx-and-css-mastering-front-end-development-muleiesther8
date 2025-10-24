@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import TaskManager from "./pages/TaskManager";
 import ApiData from "./pages/ApiData";
-import "./App.css";
+
 
 function App() {
   return (
