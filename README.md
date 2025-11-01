@@ -76,7 +76,7 @@ src/
  ├── main.jsx
 🌐 Deployment
 If deployed, the project will be accessible via:
-🔗 https://your-deployment-link.vercel.app
+https://react-week3-esther-6hwpkccxt-mulei-esthers-projects.vercel.app/
 
 📸 Screenshots
 🏠 Home Page
